@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   repository: basavabm/myapp
-  tag: "latest"
+  tag: "880e4c9"
   pullPolicy: IfNotPresent
 service:
   type: ClusterIP
