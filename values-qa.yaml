@@ -1,0 +1,8 @@
+replicaCount: 2
+image:
+  tag: qa
+ingress:
+  enabled: true
+  host: sim-qa.example.com
+env:
+  SPRING_PROFILES_ACTIVE: qa
