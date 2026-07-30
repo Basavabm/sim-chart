@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   repository: basavabm/myapp
-  tag: "latest"
+  tag: "doesnotexist"
   pullPolicy: IfNotPresent
 service:
   type: ClusterIP
@@ -20,3 +20,5 @@ resources:
     memory: 512Mi
 env:
   SPRING_PROFILES_ACTIVE: dev
+secretEnv:
+  DB_PASSWORD: "changeme"
