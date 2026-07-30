@@ -1,6 +1,6 @@
 replicaCount: 2
 image:
-  tag: qa
+  tag: "880e4c9"
 ingress:
   enabled: true
   host: sim-qa.example.com

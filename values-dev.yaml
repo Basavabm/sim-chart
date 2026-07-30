@@ -1,5 +1,7 @@
 replicaCount: 1
 image:
-  tag: "latest"
+  tag: "880e4c9"
 ingress:
   enabled: false
+env:
+  SPRING_PROFILES_ACTIVE: dev

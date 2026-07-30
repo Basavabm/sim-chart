@@ -1,6 +1,6 @@
 replicaCount: 3
 image:
-  tag: prod
+  tag: "880e4c9"
 ingress:
   enabled: true
   host: sim.example.com
